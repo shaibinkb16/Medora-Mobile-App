@@ -1,0 +1,63 @@
+# Node modules
+**/node_modules/
+
+# Environment files
+**/.env
+**/.env.*
+
+# Log files
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+**/dist/
+**/build/
+**/.expo/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Expo & React Native
+**/.expo/
+**/.expo-shared/
+*.apk
+*.keystore
+*.jks
+
+# Mac system files
+**/.DS_Store
+
+# Coverage reports
+**/coverage/
+coverage.lcov
+
+# Logs
+logs
+*.log
+
+# Optional npm cache directory
+.npm
+
+# React Native specific
+*.xcworkspace
+*.xcodeproj
+*.pbxproj
+android/.gradle
+android/.idea
+ios/Pods
+ios/Podfile.lock
+ios/Podfile
+
+# Misc
+*.sqlite
+*.db
+*.tgz
+*.lock
+*.pid
