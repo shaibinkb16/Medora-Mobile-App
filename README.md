@@ -68,40 +68,54 @@
 
 ## 🛠 Tech Stack
 
-| Category        | Tools & Libraries                                                                 |
-|----------------|-------------------------------------------------------------------------------------|
-| **Frontend**    | React Native (Expo), TypeScript, React Navigation, Axios, AsyncStorage            |
-| **Backend**     | Node.js, Express.js, MongoDB, Mongoose, JWT, Google OAuth, Nodemailer, Socket.IO  |
-| **OCR & ML**    | Tesseract.js (OCR), Custom ML models (Python) for health prediction               |
-| **Notifications** | Expo Push Notification SDK                                                       |
-| **Admin Dashboard** | React + Vite, Ant Design, TypeScript, Recharts                                |
-| **DevOps & Misc** | GitHub, Postman, Figma (design), ESLint + Prettier                              |
+| Category           | Tools & Libraries                                                                  |
+|-------------------|--------------------------------------------------------------------------------------|
+| **Frontend**       | React Native (Expo), TypeScript, React Navigation, Axios, AsyncStorage              |
+| **Backend**        | Node.js, Express.js, MongoDB, Mongoose, JWT, Google OAuth, Nodemailer, Socket.IO    |
+| **OCR & ML**       | Tesseract.js (OCR), Custom ML models (Python) for health prediction                 |
+| **Notifications**  | Expo Push Notification SDK                                                          |
+| **Admin Dashboard**| React + Vite, Ant Design, TypeScript, Recharts                                      |
+| **DevOps & Misc**  | GitHub, Postman, Figma (design), ESLint + Prettier                                  |
 
 ---
 
 ## 📸 Screenshots
 
-> Screenshots are stored in the `screenshots/` folder.
+> All screenshots are stored in the `screenshots/` folder.
 
 ### 📱 Mobile App
 
-| Home & Records | OCR & Prediction | Diet & Period Tracker |
-|----------------|------------------|------------------------|
-| ![Home](screenshots/home.png) | ![OCR](screenshots/ocr.png) | ![Diet](screenshots/diet.png) |
+| Add Reminder | Dashboard | Welcome | Forgot Password |
+|--------------|-----------|---------|-----------------|
+| ![](screenshots/AddRemi.jpg) | ![](screenshots/dashboard.jpg) | ![](screenshots/first.jpg) | ![](screenshots/ForgotPassword.jpg) |
 
-| Reminders | Login/Register | Profile |
-|----------|----------------|---------|
-| ![Reminders](screenshots/reminders.png) | ![Login](screenshots/login.png) | ![Profile](screenshots/profile.png) |
+| Home | Index | Login | Notification |
+|------|-------|-------|--------------|
+| ![](screenshots/Home.jpg) | ![](screenshots/Index.jpg) | ![](screenshots/login.jpg) | ![](screenshots/notification.jpg) |
+
+| Period Tracker | Profile | Recommendations | Records |
+|----------------|---------|------------------|--------|
+| ![](screenshots/periods.jpg) | ![](screenshots/Profile.jpg) | ![](screenshots/Recommendations.jpg) | ![](screenshots/Records.jpg) |
+
+| Register | Upcoming Reminders | Upload Record | View Record |
+|----------|---------------------|----------------|--------------|
+| ![](screenshots/Register.jpg) | ![](screenshots/upcommingRemi.jpg) | ![](screenshots/UploadRecord.jpg) | ![](screenshots/ViewRecord.jpg) |
 
 ### 🧑‍💼 Admin Panel
 
-| Dashboard | Charts | User Management | Notifications |
-|-----------|--------|------------------|----------------|
-| ![Dashboard](screenshots/admin-dashboard.png) | ![Charts](screenshots/charts.png) | ![Users](screenshots/users.png) | ![Notify](screenshots/notifications.png) |
+| Admin Dashboard | Manage Notifications | Manage Records |
+|-----------------|----------------------|----------------|
+| ![](screenshots/AdminDashboard.jpg) | ![](screenshots/AdminManageNotifications.jpg) | ![](screenshots/AdminManageRecords.jpg) |
+
+| Manage Users | Admin Login |
+|--------------|-------------|
+| ![](screenshots/AdminMangeUsers.jpg) | ![](screenshots/AdminLogin.jpg) |
 
 ---
 
 ## 📂 Folder Structure
+
+
 
 medora/ │ ├── client/ # Mobile app (React Native) │ ├── assets/ │ ├── src/ │ │ ├── components/ │ │ ├── screens/ │ │ ├── context/ │ │ ├── services/ │ │ └── utils/ │ └── App.tsx │ ├── admin/ # Admin dashboard (React + Vite) │ ├── pages/ │ ├── components/ │ └── App.tsx │ ├── server/ # Backend (Node.js + Express) │ ├── controllers/ │ ├── routes/ │ ├── models/ │ ├── middleware/ │ ├── utils/ │ └── index.ts │ ├── screenshots/ # App screenshots for README ├── .env.example # Sample env file └── README.md # Project documentation
 
