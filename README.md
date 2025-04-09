@@ -105,11 +105,11 @@
 
 | Admin Dashboard | Manage Notifications | Manage Records |
 |-----------------|----------------------|----------------|
-| ![](screenshots/AdminDashboard.jpg) | ![](screenshots/AdminManageNotifications.jpg) | ![](screenshots/AdminManageRecords.jpg) |
+| ![](screenshots/AdminDashboard.png) | ![](screenshots/AdminManageNotifications.png) | ![](screenshots/AdminManageRecords.png) |
 
 | Manage Users | Admin Login |
 |--------------|-------------|
-| ![](screenshots/AdminMangeUsers.jpg) | ![](screenshots/AdminLogin.jpg) |
+| ![](screenshots/AdminMangeUsers.png) | ![](screenshots/AdminLogin.png) |
 
 ---
 
